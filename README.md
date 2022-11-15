@@ -9,7 +9,9 @@ React redirects to http://localhost:8080/cat but this leads to a 404 in Spring-B
 
 ```bash
 cd frontend
+npm run install
 npm run build
+cp ./build/* ../backend/main/resources/static
 cd ../backend
 mvn spring-boot:run
 ```
