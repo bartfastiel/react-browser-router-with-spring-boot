@@ -13,3 +13,7 @@ npm run build
 cd ../backend
 mvn spring-boot:run
 ```
+
+## Alternative solutions
+
+Please find the alternative solutions in [the branches](https://github.com/bartfastiel/react-browser-router-with-spring-boot/branches) of this repo.
