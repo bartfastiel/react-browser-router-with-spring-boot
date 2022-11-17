@@ -14,7 +14,7 @@ public class ReactRoutingForwarding implements WebMvcConfigurer {
 
     public static final String DEFAULT_STARTING_PAGE = "static/index.html";
 
-    private static class ReactRoutingPathResourceResolver extends PathResourceResolver {
+    static class ReactRoutingPathResourceResolver extends PathResourceResolver {
         @Override
         protected Resource getResource(String resourcePath, Resource location) throws IOException {
             var requestedResource = location.createRelative(resourcePath);
